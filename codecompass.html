@@ -7,109 +7,131 @@
     <link rel="stylesheet" type="text/css" href="codecompass.css"/>
 </head>
 <body>
-    <!-- Header -->
+    <!-- Brand Header -->
    <header>
     <div class="logo">
-        <img src="images\Cod-Compass-B.png" alt="CodeCompass Logo" width="70px">
-        <h1>CodeCompass</h1>
+        <a class="brand-logo" href="" target="_blank">
+            <img id="header-img" src="images\Cod-Compass-B.png" alt="CodeCompass" width="70px">
+        </a>
+        <h1 class="brand-name">CodeCompass</h1>
     </div>
+    <nav id="nav-bar" class="navbar">
+        <ul class="menu">
+            <li><a class="nav-link" href="#taskmanager">Task Manger</a></li>
+            <li><a class="nav-link" href="#community">Community</a></li>
+            <li><a class="nav-link" href="#aboutus">About Us</a></li>
+        </ul>
+    </nav>
   </header>
   <hr>
-  <section class="title-container">
-    <h1>Navigate your coding journey with <span>CodeCompass</span></h1>
-    <p> Our platform offers comprehensive guidance and resources for aspiring developers. 
+  <!--Hero Section-->
+  <section id="hero">
+    <h1 class="hero-title">Navigate your coding journey with CodeCompass</h1>
+    <p class="hero-text"> Our platform offers comprehensive guidance and resources for aspiring developers. 
         Navigate your way to coding success with our vibrant community, practical task manager,
-        and curated resources. </p>   
-    <!--Let CodeCompass be your guiding light as you unlock your coding potential.-->
+        and curated resources.</p>   
   </section>
   <hr>
-  <h1>Products</h1>
-  <hr> <!-- CodeConnect and CodeMentor -->
-  <section>
-    <h2>Community</h2>
-    <p>"Learn, connect, and grow with our two community tracks"</p>
-    <div>
-        <img src="images\codeconnect.png" alt="CodeCompass Logo" width="50px">
-        <h3>CodeConnect</h3>
-        <p>"CodeConnect: Where aspiring developers come together to connect, learn, and grow. 
-            Join our vibrant community of aspiring coders to collaborate, seek guidance, and encourage 
-            each other's progress. Together, we'll explore the exciting world of coding and inspire one 
-            another to reach new heights. As Albert Einstein said, 'The only source of knowledge is 
-            experience,' and at CodeCompass, we believe in the power of shared experiences to fuel
-            learning and foster innovation."</p>
+
+  <!--About Us-->
+  <section id="about-us">
+    <img src="https://placehold.co/250" alt="CodeCompass Logo">
+    <div class="aboutus-card"></div>
+            <div class="about-cardcontent">
+                <h3>What is CodeCompass?</h3>
+                <p>Write a paragraph that talks about your company here. You can talk about your company's background, history, mission, vision, or philosophy. Anything that will introduce your brand's persona to your clients. This will help build a connection between you and them, that hopefully leads into a working relationship.</p>
+            </div>
     </div>
-    <div>
-        <img src="images\codementor.png" alt="CodeCompass Logo" width="50px">
-        <h3>CodeMentor</h3>
-        <p>"CodeMentor: Unlock your coding potential. Connect with experienced developers, gain
-         valuable insights, and accelerate your learning journey. Get the guidance you need 
-         to excel as an aspiring developer. Join our vibrant community and embark on a path
-        of growth with CodeMentor"</p>
-    </div>
-    <p>CodeMentor and CodeConnect are integral parts of the CodeCompass platform,
-       fostering learning, connections, and growth among aspiring developers and
-       experienced developers.</p>
   </section>
-  <hr> <!-- Task Manager -->
-  <section>
+
+  <!--What We Can Do for You-->
+  <h2>What We Can Do For You</h2>
+
+
+  <!--Task Manager-->
+  <section id="Task-container">
+    <div class="task-m-container">
         <h3>Task Manager</h3>
-        <p>"TaskManager: Streamline your coding progress and forge a successful career 
+        <img>
+        <p>Streamline your coding progress and forge a successful career 
             with our efficient task management platform, a vital component of CodeCompass.
             Stay organized, track your goals, and conquer coding challenges with ease. 
             From planning projects to prioritizing tasks, TaskManager empowers aspiring
             developers to excel in their coding journey. Maximize productivity, achieve 
             milestones, and unlock your full potential with TaskManager, your trusted 
-            companion in coding success."</p>
-            <!-- It needs an icon or image-->
-        <!-- css for buttons in uiverse -->
-        <div>
-            <button>Login
-                <div class="arrow-wrapper">
-                    <div class="arrow"></div>
-                </div>
-            </button>
-        </div>
-        <div>
-            <button>Sign up
-                <div class="arrow-wrapper">
-                    <div class="arrow"></div>
-                </div>
-            </button>
-        </div>
+            companion in coding success</p>
+        <button>Access</button>
+    </div>
   </section>
-  <hr> <!--Courses, Programs, and Resources section--> 
-  <section>
+
+  <!--Community-->
+  <section id="community">
+    <div class="community">
+        <h2>Community</h2>
+        <img>
+        <p></p>
+    </div>
+    <!--CodeConnect and CodeMentor-->
+    <div class="code-connect-mentor">
+        <!--CodeConnect-->
+        <div class="codeconnect">
+            <img src="images\codeconnect.png" alt="CodeCompass Logo" width="50px">
+            <h4>CodeConnect</h4>
+            <p>"CodeConnect: Where aspiring developers come together to connect, learn, and grow.</p>
+        </div>
+        <!--CodeMentor-->
+        <div class="codementor">
+            <img src="images\codementor.png" alt="CodeCompass Logo" width="50px">
+            <h4>CodeMentor</h4>
+            <p>"CodeMentor: Unlock your coding potential.</p>
+        </div>
+        <button>Connect</button>
+    </div>
+  </section>
+
+  <!--Other Products-->
+  <h3>Other Products</h3>
+
+  <!--Blog, Resources, and Programs-->
+  <section id="other-products">
         <div>
             <img src="#" alt="Courses">
-            <h3>Courses</h3>
+            <h4>Blog</h4>
+            <p>Give a detailed description of the service being provided here.</p>
         </div>
         <div>
             <img src="#" alt="Programs">
-            <h3>Programs</h3>
+            <h4>Resources</h4>
+            <p>Give a detailed description of the service being provided here.</p>
         </div>
         <div>
             <img src="#" alt="Resources">
-            <h3>Resources</h3>
+            <h4>Programs</h4>
+            <p>Give a detailed description of the service being provided here.</p>
         </div>
   </section>
-  <hr>
-  <!-- Join Us Form -->
+
+
+  <!-- Join The Team -->
   <section id="join-us">
-        <h2>JOIN US!</h2>
-        <form>
-            <label for="message">Would you like to join this vibrant community? Write to us today!</label>
-            <textarea id="message"name="message" placeholder="Your message"></textarea>
-            <input type="submit" value="Submit">
-        </form>
+    <div class="join-title-button">
+        <h3>Join the team!</h3>
+        <button>Join</button>
+    </div>
+    <div>
+        <img>
+        <p></p>
+    </div>
   </section>
-  <hr> <!-- Footer -->
+  
+  <!-- Footer -->
   <footer>
+    <p>&copy; 2023 CodeCompass. All rights reserved.</p>
     <div class="social-icons">
         <a href="#"><img src="#"></a>
         <a href="#"><img src="#"></a>
         <a href="#"><img src="#"></a>
     </div>
-    <p>&copy; 2023 CodeCompass. All rights reserved.</p>
   </footer>
     
 </body>
