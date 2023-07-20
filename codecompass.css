@@ -6,6 +6,36 @@
     font-family: 'Poppins', sans-serif;
   }
 
+
+
+/*HEADER*/
+
+
+/*HEADER : LOGO AND NAME*/
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.brand-logo img {
+  width: 70px;
+}
+
+.brand-name {
+  font-size: 24px; 
+}
+
+/* Responsive styles using media queries */
+@media (max-width: 768px) {
+  .brand-logo img {
+      width: 50px;
+  }
+
+  .brand-name {
+      font-size: 20px; 
+  }
+}
+
 /*FOOTER*/
 footer {
     margin-bottom: 0px;
